@@ -1,0 +1,59 @@
+body {
+	background-color: #000;
+	font-family: arial;
+}
+
+p {
+	color: white
+}
+
+header {
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+section {
+	display: flex;
+	width: 100%;
+}
+
+.article1 {
+	background-color: #66666E;
+	flex: 60%;
+}
+
+.aside1 {
+	background-color: #66666E;
+	flex: 20%;
+}
+
+nav {
+	width: 100%;
+	background-color: #9999A1;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+
+nav ul a {
+	color: white;
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+nav ul a:hover {
+	color: crimson;
+}
+
+nav ul a:visited {
+	color: crimson;
+}
+
+nav ul li {
+	padding: auto;
+}
